@@ -1,0 +1,6 @@
+<FilesMatch "\.(jpg|jpeg|ogg|mp3|png|gif|swf)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . / [L,R=301]
