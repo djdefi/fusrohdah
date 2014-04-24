@@ -1,5 +1,6 @@
-fusrohdah.com
+fusrohdah
 =============
 HTML5 Fus Ro Dah
 
-Heroku 
+
+https://djdefi.github.io/fusrohdah/
